@@ -16,8 +16,12 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
-    testImplementation 'com.codeborne:selenide:5.19.0'
+    implementation 'com.github.crashvb:chromedriver:2.41'
+    implementation 'com.github.automatedowl:chromedriver-js-errors-collector-testng:1.0.4'
+    implementation 'com.kazurayam:chromedriverfactory:0.6.5'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation 'com.codeborne:selenide:6.4.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.1.4'
 }
 
 test {
