@@ -15,6 +15,7 @@ import org.openqa.selenium.Keys;
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+org.openqa.selenium.WebDriverException;
 
 import java.time.Duration;
 import java.time.LocalDate;
